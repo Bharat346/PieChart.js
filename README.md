@@ -18,7 +18,7 @@ example :
    var data = [30, 15, 25, 10, 20,34];
    var labels = ["C", "JS", "TS", "Python", "Java","C++"];
    var colors = ["red", "orange", "blue", "purple", "green","aqua"];
-   createPieChart("chartContainer", data, labels, colors);
+   createPieChart("user_given_id", data, labels, colors);
 
 3. Basic Html structure : 
    ```html
