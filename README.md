@@ -11,15 +11,16 @@ PieChart.js is a lightweight JavaScript library for creating customizable pie ch
    <script src="https://cdn.jsdelivr.net/gh/Bharat346/PieChart.js/pie.js"></script>
 
 
-b) in second script tag you can write "data","colors","labels",and define a container Id in your main file and pass them to the Function ==> 
+2. in second script tag you can write "data","colors","labels",and define a container Id in your main file and pass them to the Function ==> 
 + createPieChart(ContainerID, data, labels, colors);
 example :
-var data = [30, 15, 25, 10, 20,34];
-var labels = ["C", "JS", "TS", "Python", "Java","C++"];
-var colors = ["red", "orange", "blue", "purple", "green","aqua"];
-createPieChart("chartContainer", data, labels, colors);
+  ```html
+       var data = [30, 15, 25, 10, 20,34];
+       var labels = ["C", "JS", "TS", "Python", "Java","C++"];
+       var colors = ["red", "orange", "blue", "purple", "green","aqua"];
+       createPieChart("chartContainer", data, labels, colors);
 
-c) Basic Html structure : 
+3. Basic Html structure : 
 <div id = "user_given_id">
   <!-- you can add more items here like heading with own styles -->
   <div class = "popup"></div>
