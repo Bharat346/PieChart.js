@@ -12,14 +12,14 @@ a) first inckude library -
 
 b) in second script tag you can write "data","colors","labels",and define a container Id in your main file and pass them to the Function ==> 
 + createPieChart(ContainerID, data, labels, colors);
-+ example :
+  example :
   var data = [30, 15, 25, 10, 20,34];
   var labels = ["C", "JS", "TS", "Python", "Java","C++"];
   var colors = ["red", "orange", "blue", "purple", "green","aqua"];
   createPieChart("chartContainer", data, labels, colors);
 
 c) Basic Html structure : 
-   <div id = "user_given_id">
+   #<div id = "user_given_id">
       <!-- you can add more items here like heading with own styles -->
       <div class = "popup"></div>
       <div class = "colors"></div>
