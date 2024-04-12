@@ -6,7 +6,7 @@
 
 =============================================================================================
 
-use -
+use :
 a) first inckude library -
   #<script src="https://cdn.jsdelivr.net/gh/Bharat346/PieChart.js/pie.js"></script>
 
