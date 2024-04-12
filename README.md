@@ -1,6 +1,7 @@
 # PieChart.js
 
-PieChart.js is a lightweight JavaScript library for creating customizable pie charts using HTML canvas.
+PieChart.js is a lightweight JavaScript library for creating customizable pie charts.
+This Library is made by HTML5 Canvas Using Java-Script.
 
 ## Usage
 
