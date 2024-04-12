@@ -4,16 +4,16 @@
 
 -This is completely made by Java-script canvas.
 
-=================================================================================================
+=============================================================================================
 
 use -
 a) first inckude library -
-#<script src="https://cdn.jsdelivr.net/gh/Bharat346/PieChart.js/pie.js"></script>
+  #<script src="https://cdn.jsdelivr.net/gh/Bharat346/PieChart.js/pie.js"></script>
 
 b) in second script tag you can write "data","colors","labels",and define a container Id in your main file and pass them to the Function ==> 
 + createPieChart(ContainerID, data, labels, colors);
 + example :
-+ var data = [30, 15, 25, 10, 20,34];
+  var data = [30, 15, 25, 10, 20,34];
   var labels = ["C", "JS", "TS", "Python", "Java","C++"];
   var colors = ["red", "orange", "blue", "purple", "green","aqua"];
   createPieChart("chartContainer", data, labels, colors);
@@ -26,13 +26,13 @@ c) Basic Html structure :
    </div>
 
 d) Each label and color pair are in a div container then you can access them and change property like this : 
----.colors div {\n
----    /* here is your own styles */\n
----}
+   .colors div {\n
+       /* here is your own styles */\n
+   }
 
 e) To change popUps you can access popup by popup class that we define in html structure.
---- .popup{\n
----    /* popup styles added here */ \n
----}
+    .popup{\n
+       /* popup styles added here */ \n
+   }
 
 
