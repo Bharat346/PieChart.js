@@ -1,14 +1,15 @@
 # PieChart.js
 
-#By this library you can make your own customiabel pie charts. of different color section and with animation .
+PieChart.js is a lightweight JavaScript library for creating customizable pie charts using HTML canvas.
 
--This is completely made by Java-script canvas.
+## Usage
 
-=============================================================================================
+1. **Include the library:**  
+   Add the following script tag to your HTML file to include the PieChart.js library:
+   
+   ```html
+   <script src="https://cdn.jsdelivr.net/gh/Bharat346/PieChart.js/pie.js"></script>
 
-use :
-a) first inckude library -
-  #<script src="https://cdn.jsdelivr.net/gh/Bharat346/PieChart.js/pie.js"></script>
 
 b) in second script tag you can write "data","colors","labels",and define a container Id in your main file and pass them to the Function ==> 
 + createPieChart(ContainerID, data, labels, colors);
