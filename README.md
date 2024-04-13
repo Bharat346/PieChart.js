@@ -15,7 +15,7 @@ This Library is made by HTML5 Canvas Using Java-Script.
 2. in second script tag you can write "data","colors","labels",and define a container Id in your main file and pass them to the Function :
 "createPieChart(ContainerID, data, labels, colors);"
 example :
-   ```html
+   ```js
    var data = [30, 15, 25, 10, 20,34];
    var labels = ["C", "JS", "TS", "Python", "Java","C++"];
    var colors = ["red", "orange", "blue", "purple", "green","aqua"];
@@ -30,13 +30,13 @@ example :
    </div>
 
 4. Each label and color pair are in a div container then you can access them and change property like this : 
-   ```html
+   ```css
    .colors div {
       /* here is your own styles */
    }
 
 5. To change popUps you can access popup by popup class that we define in html structure.
-   ```html
+   ```css
    .popup{
       /* popup styles added here */ 
    }
